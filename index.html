@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Piotr Malec">
+<meta name="description" content="Wspólna strona zawierająca zadania HTML 1–7">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Piotr Malec – zadania HTML 1–7</title>
+
+<style>
+:root {
+    --green: #174d2a;
+    --line: #388e5b;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #e9f7e9;
+    color: #203020;
+    margin: 0;
+    line-height: 1.55;
+}
+
+header, main, footer {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    background: #d3ead8;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+nav a, .button {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #fff;
+    border: 1px solid #8ab99a;
+    border-radius: 6px;
+    color: #174d2a;
+    text-decoration: none;
+}
+
+nav a:hover, .button:hover {
+    background: #c4e4cd;
+}
+
+section {
+    background: #fff;
+    padding: 18px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 2px solid #c8e3ce;
+}
+
+h1, h2, h3 {
+    color: var(--green);
+}
+
+fieldset {
+    background: #f8fff9;
+    border: 3px solid var(--line);
+    border-radius: 10px;
+    margin: 18px 0;
+    padding: 14px;
+}
+
+legend {
+    font-weight: bold;
+    color: #14532d;
+    padding: 0 8px;
+}
+
+hr {
+    margin: 24px 0;
+}
+
+table {
+    border: 5px solid #c0392b;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1.5px solid #333;
+    padding: 9px;
+    text-align: left;
+}
+
+th {
+    background: #d6eaf8;
+}
+
+tbody tr:nth-child(odd) {
+    background: #d5f5e3;
+}
+
+tbody tr:nth-child(even) {
+    background: #fcf3cf;
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 12px;
+}
+
+form p {
+    margin: 12px 0;
+}
+
+input, select, textarea {
+    max-width: 100%;
+    padding: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<a id="poczatek"></a>
+
+<header>
+<!-- Autor: Piotr Malec | Klasa: 2G -->
+
+<h1>Moja wspólna strona WWW</h1>
+<p>Piotr Malec | Klasa 2G</p>
+
+<nav>
+    <a href="#przedstawienie">O mnie</a>
+    <a href="#dowcipy">Dowcipy</a>
+    <a href="#listy">Listy</a>
+    <a href="#tabela">Tabela</a>
+    <a href="#formularz">Formularz</a>
+    <a href="#kontakt">Poczta</a>
+    <a href="#plik">Plik</a>
+    <a href="#walidacja">Walidacja</a>
+    <a href="#srodek">Środek</a>
+    <a href="#koniec">Koniec</a>
+</nav>
+</header>
+
+<main>
+
+<!-- ZADANIE 1 I 2 -->
+
+<section id="przedstawienie">
+
+<h2>Przedstawiam się</h2>
+
+<p style="text-align:right">
+    <span style="color:#1455aa;font:10px Arial">Piotr</span><br>
+    <span style="color:#b22222;font:12px Arial">Piotr</span><br>
+    <span style="color:#178044;font:14px Arial">Piotr</span><br>
+    <span style="color:#8a2be2;font:16px Arial">Piotr</span><br>
+    <span style="color:#c05a00;font:18px Arial">Piotr</span><br>
+    <span style="color:#006d77;font:20px Arial">Piotr</span><br>
+    <span style="color:#8b008b;font:22px Arial">Piotr</span>
+</p>
+
+<h2>Nazwisko – sześć poziomów nagłówków</h2>
+
+<h6>Malec</h6>
+<h5>Malec</h5>
+<h4>Malec</h4>
+<h3>Malec</h3>
+<h2>Malec</h2>
+<h1>Malec</h1>
+
+<p>
+    <strong>Adres:</strong>
+    <u>80-870 Gdańsk, ul. Mikołaja Reja 25</u><br>
+
+    <strong>Ulubiony aktor:</strong> brad pit<br>
+
+    <strong>Ulubiony zespół:</strong> daft punk<br>
+
+    <strong>Data urodzenia:</strong> 11 października 2010
+</p>
+
+<p>
+    <b>Pogrubienie</b>,
+    <i>kursywa</i>,
+    <u>podkreślenie</u>,
+    <s>przekreślenie</s>.
+    <br>
+
+    Wzór chemiczny:
+    H<sub>2</sub>SO<sub>4</sub>,
+
+    zapis matematyczny:
+    x*x=x<sup>2</sup>.
+</p>
+
+<p style="font:16px Arial;color:#a22">
+    Arial – tekst przykładowy
+</p>
+
+<p style="font:18px 'Courier New';color:#167">
+    Courier New – tekst przykładowy
+</p>
+
+<p style="font:20px 'Times New Roman';color:#282">
+    Times New Roman – tekst przykładowy
+</p>
+
+<h2>Emotikony</h2>
+
+<p style="font:22px 'Courier New';color:#e67e22">
+    :) – radość
+</p>
+
+<p style="font:24px Verdana;color:#2980b9">
+    :( – smutek
+</p>
+
+<p style="font:26px 'Times New Roman';color:#8e44ad">
+    <3 – sympatia
+</p>
+
+<p style="font:28px 'Courier New';color:#16a085">
+    B) – pewność siebie
+</p>
+
+<p style="font:30px Verdana;color:#c0392b">
+    :O – zdziwienie
+</p>
+
+
+</p>
+
+</section>
+
+
+<!-- ZADANIE 3 -->
+
+<a id="srodek"></a>
+
+<section id="dowcipy">
+
+<h2>Dowcipy informatyczne</h2>
+
+<h3 style="text-align:left">
+    Dowcip o komputerze
+</h3>
+
+<fieldset>
+    <legend>Komputer i herbata</legend>
+
+  
+
+    Dlaczego komputer poszedł do lekarza?
+    <br>
+    Bo złapał wirusa!
+
+    <br style="clear:both">
+</fieldset>
+
+<hr style="height:2px;background:#b33;border:0;width:80%;margin-left:0">
+
+<h3 style="text-align:center">
+    Dowcip o programiście
+</h3>
+
+<fieldset>
+    <legend>Życie programisty</legend>
+
+   
+
+    Programista do kolegi:
+    „Działa u mnie”.
+    Kolega pyta:
+    „A na komputerze?”
+
+    <br style="clear:both">
+</fieldset>
+
+<hr style="height:5px;background:#3973b8;border:0;width:65%">
+
+<h3 style="text-align:right">
+    Dowcip o internecie
+</h3>
+
+<fieldset>
+    <legend>Brak połączenia</legend>
+
+   
+
+    Co mówi router, gdy jest zmęczony?
+    „Muszę złapać trochę zasięgu”.
+
+    <br style="clear:both">
+</fieldset>
+
+<hr style="height:3px;background:#39845b;border:0;width:45%;margin-left:0">
+
+<fieldset>
+    <legend>Myszka komputerowa</legend>
+
+  
+
+    Dlaczego myszka nie lubi sprzątania?
+    Bo ciągle gubi kursor!
+
+    <br style="clear:both">
+</fieldset>
+
+<fieldset>
+    <legend>Błąd 404</legend>
+
+    
+
+    Co robi strona, której nie ma?
+    Udaje, że jej nie znaleziono!
+
+    <br style="clear:both">
+</fieldset>
+
+</section>
+
+
+<!-- ZADANIE 4 -->
+
+<section id="listy">
+
+<h2>Wyliczenia – sprzęt komputerowy</h2>
+
+<ul style="list-style-type:square">
+    <li>intel core i5 11400f</li>
+    <li>32gb ddr4</li>
+    <li>Micron_2210</li>
+</ul>
+
+<ul style="list-style-type:disc">
+    <li>iiyama g-master gb2471h</li>
+    <li>logitech proxtkl lightspeed</li>
+    <li>logitech superlight 2 se</li>
+</ul>
+
+<ul style="list-style-type:circle">
+    <li>RTX 3060 ti</li>
+    <li>Acer Nitro N50-620</li>
+    <li>brak informacji </li>
+</ul>
+
+<h2>Numerowanie – etapy tworzenia strony</h2>
+
+<ol type="1" start="12">
+    <li>Planowanie</li>
+    <li>Pisanie kodu</li>
+    <li>Testowanie</li>
+</ol>
+
+<ol type="A" start="12">
+    <li>Projekt</li>
+    <li>Implementacja</li>
+    <li>Publikacja</li>
+</ol>
+
+<ol type="a" start="12">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ol>
+
+<h2>Lista zagnieżdżona</h2>
+
+<ol>
+    <li>
+        Strona WWW
+
+        <ul>
+            <li>
+                HTML
+
+                <ol type="a">
+                    <li>Znaczniki</li>
+                    <li>Atrybuty</li>
+                </ol>
+            </li>
+
+            <li>CSS</li>
+        </ul>
+    </li>
+
+    <li>Publikacja</li>
+</ol>
+
+<p>
+    Znaki specjalne:
+    &copy; &reg; &euro; &pound; &sect; &hearts; &trade;
+</p>
+
+</section>
+
+
+<!-- ZADANIE 5 -->
+
+<section id="tabela">
+
+<h2>Tabela – dane komputerowe</h2>
+
+<table>
+
+<caption>
+    Dane komputerowe – Piotr Malec, klasa 2G
+</caption>
+
+<thead>
+<tr>
+    <th>Podzespół</th>
+    <th>Model</th>
+    <th>Parametr</th>
+    <th>Wartość</th>
+    <th>Uwagi</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+    <td rowspan="2">Procesor</td>
+    <td>Core i5 11400f</td>
+    <td>Rdzenie</td>
+    <td>6</td>
+    <td>Średnia półka</td>
+</tr>
+
+
+<tr>
+    <td>Karta graficzna</td>
+    <td>RTX 3060ti</td>
+    <td>Pamięć</td>
+    <td>8 GB</td>
+    <td>Aktywne chłodzenie</td>
+</tr>
+
+<tr>
+    <td>Pamięć RAM</td>
+    <td>DDR4</td>
+    <td>Pojemność</td>
+    <td>32 GB</td>
+    <td>Dwukanałowa</td>
+</tr>
+
+<tr>
+    <td>Dysk</td>
+    <td>SSD NVMe</td>
+    <td>Pojemność</td>
+    <td>1 TB</td>
+    <td>Szybki zapis</td>
+</tr>
+
+<tr>
+    <td>Płyta główna</td>
+    <td colspan="2">Intel B560 (Rocket Lake PCH-H)</td>
+    <td>brak informacji</td>
+    <td>Komputer stacjonarny</td>
+</tr>
+
+<tr>
+    <td>Monitor</td>
+    <td>IPS</td>
+    <td>Przekątna</td>
+    <td>24 cale</td>
+    <td>Full HD</td>
+</tr>
+
+<tr>
+    <td>Zasilacz</td>
+    <td>brak informacji</td>
+    <td>brak informacji</td>
+    <td>ok. 650W</td>
+    <td>brak informacji</td>
+</tr>
+
+</tbody>
+</table>
+
+<p>
+    <em>
+        <u style="color:red;font-size:small">
+            Źródło: opracowanie własne
+        </u>
+    </em>
+</p>
+
+</section>
+
+
+<!-- ZADANIE 6 – FORMULARZ -->
+
+<section id="formularz" style="background:#e7f9ff">
+
+<h2>Formularz zainteresowań informatycznych</h2>
+
+<form action="mailto:jan.kowalski@example.com"
+      method="post"
+      enctype="text/plain">
+
+<p>
+    Imię:
+    <input name="Imie">
+</p>
+
+<p>
+    Nazwisko:
+    <input name="nazwisko" value="Malec">
+</p>
+
+<p>
+    Klasa:
+    <input name="klasa" maxlength="3">
+</p>
+
+<p>
+    Hasło testowe:
+    <input type="password" name="haslo">
+</p>
+
+<p>
+    Adres e-mail:
+    <input type="email" name="email">
+</p>
+
+<p>
+    Poziom zaawansowania:
+
+    <label>
+        <input type="radio" name="poziom" value="poczatkujacy" checked>
+        Początkujący
+    </label>
+
+    <label>
+        <input type="radio" name="poziom" value="sredni">
+        Średni
+    </label>
+
+    <label>
+        <input type="radio" name="poziom" value="zaawansowany">
+        Zaawansowany
+    </label>
+
+    <label>
+        <input type="radio" name="poziom" value="inny">
+        Inny
+    </label>
+</p>
+
+<p>
+    System:<br>
+
+    <label>
+        <input type="radio" name="system" value="Windows">
+        Windows
+    </label>
+    <br>
+
+    <label>
+        <input type="radio" name="system" value="Linux">
+        Linux
+    </label>
+    <br>
+
+    <label>
+        <input type="radio" name="system" value="macOS">
+        macOS
+    </label>
+</p>
+
+<p>
+    Język programowania:
+
+    <label>
+        <input type="radio" name="jezyk" value="HTML">
+        HTML
+    </label>
+
+    <label>
+        <input type="radio" name="jezyk" value="Python">
+        Python
+    </label>
+
+    <label>
+        <input type="radio" name="jezyk" value="JavaScript">
+        JavaScript
+    </label>
+
+    <label>
+        <input type="radio" name="jezyk" value="C">
+        C
+    </label>
+
+    <label>
+        <input type="radio" name="jezyk" value="Java">
+        Java
+    </label>
+</p>
+
+<p>
+    Co Cię interesuje?<br>
+
+    <label>
+        <input type="checkbox" name="zainteresowania" value="strony">
+        Strony WWW
+    </label>
+    <br>
+
+    <label>
+        <input type="checkbox" name="zainteresowania" value="gry">
+        Gry
+    </label>
+    <br>
+
+    <label>
+        <input type="checkbox" name="zainteresowania" value="sieci">
+        Sieci
+    </label>
+    <br>
+
+    <label>
+        <input type="checkbox" name="zainteresowania" value="sprzet">
+        Sprzęt
+    </label>
+</p>
+
+<p>
+    Ulubione urządzenia:<br>
+
+    <label>
+        <input type="checkbox" name="urzadzenia" value="PC">
+        PC
+    </label>
+    <br>
+
+    <label>
+        <input type="checkbox" name="urzadzenia" value="Laptop">
+        Laptop
+    </label>
+    <br>
+
+    <label>
+        <input type="checkbox" name="urzadzenia" value="Tablet">
+        Tablet
+    </label>
+</p>
+
+<p>
+    Preferowane technologie:
+
+    <label>
+        <input type="checkbox" name="tech" value="HTML" checked>
+        HTML
+    </label>
+
+    <label>
+        <input type="checkbox" name="tech" value="CSS">
+        CSS
+    </label>
+
+    <label>
+        <input type="checkbox" name="tech" value="JS">
+        JavaScript
+    </label>
+
+    <label>
+        <input type="checkbox" name="tech" value="Python">
+        Python
+    </label>
+
+    <label>
+        <input type="checkbox" name="tech" value="SQL">
+        SQL
+    </label>
+</p>
+
+<p>
+    Ulubiona przeglądarka:
+
+    <select name="przegladarka">
+        <option selected>Firefox</option>
+        <option>Chrome</option>
+        <option>Edge</option>
+        <option>Safari</option>
+        <option>Opera</option>
+    </select>
+</p>
+
+<p>
+    Ocena zajęć:
+
+    <select name="ocena">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+</p>
+
+<p>
+    Plan na przyszłość:
+
+    <select name="plan">
+        <option>Programista</option>
+        <option>Administrator</option>
+        <option>Grafik</option>
+    </select>
+</p>
+
+<p>
+    Dodatkowe informacje:<br>
+
+    <textarea name="uwagi"
+              rows="5"
+              cols="50"
+              maxlength="500"></textarea>
+</p>
+
+<button type="button"
+        onclick="alert('Dziękujemy za wypełnienie formularza!')">
+    Pokaż komunikat
+</button>
+
+<button type="button"
+        onclick="document.querySelector('#formularz textarea').value='';alert('Wyczyszczono uwagi.')">
+    Wyczyść uwagi
+</button>
+
+<input type="submit" value="WYŚLIJ">
+<input type="reset" value="CZYŚĆ">
+
+</form>
+</section>
+
+
+<!-- POCZTA -->
+
+<section id="kontakt">
+
+<h2>Kontakt e-mail</h2>
+
+
+
+<p>
+    <a href="mailto:jan.kowalski@example.com">
+        Napisz do mnie: jan.kowalski@example.com
+    </a>
+</p>
+
+</section>
+
+
+<!-- PLIK -->
+
+<section id="plik">
+
+<h2>Pobieranie pliku</h2>
+
+<p>
+    <a href="materialy/notatka.txt" download>
+        Pobierz krótką notatkę tekstową
+    </a>
+</p>
+
+</section>
+
+
+<!-- ZADANIE 7 -->
+
+<section id="walidacja">
+
+<h2>Walidacja stron WWW – zadanie 7</h2>
+
+<h3>1. Co to jest walidacja strony HTML?</h3>
+
+<p>
+    Walidacja strony HTML to proces sprawdzania poprawności kodu HTML
+    pod kątem zgodności z obowiązującymi standardami, w celu wykrycia
+    błędów i nieprawidłowości w strukturze dokumentu.
+</p>
+
+<h3>2. Co to jest walidator HTML?</h3>
+
+<p>
+    Walidator HTML to narzędzie, które sprawdza poprawność kodu HTML
+    pod względem zgodności ze standardami i wskazuje znalezione błędy
+    oraz nieprawidłowości w kodzie strony internetowej.
+</p>
+
+<h3>3. Czym zajmuje się organizacja W3C i co oznacza skrót?</h3>
+
+<p>
+    W3C to World Wide Web Consortium – międzynarodowe konsorcjum
+    zajmujące się opracowywaniem standardów dla stron internetowych.
+    Dba o poprawne działanie, dostępność i zgodność stron ze standardami.
+</p>
+
+<p>
+    Otwórz
+    <a href="https://validator.w3.org/"
+       target="_blank"
+       rel="noopener">
+        W3C Markup Validation Service
+    </a>,
+    sprawdź ten plik i popraw ewentualne błędy.
+</p>
+
+<h3>Walidacja przed poprawkami</h3>
+
+<p>
+    <em>
+        W tym miejscu wstaw własny zrzut ekranu z walidacji przed poprawkami.
+    </em>
+</p>
+
+<h3>Walidacja po poprawkach</h3>
+
+<p>
+    <em>
+        W tym miejscu wstaw własny zrzut ekranu z walidacji po poprawkach.
+    </em>
+</p>
+
+</section>
+
+
+<p>
+    <a class="button" href="#poczatek">
+        Wróć na początek
+    </a>
+</p>
+
+<a id="koniec"></a>
+
+</main>
+
+<footer>
+    <p>Jan Kowalski – zadania HTML 1–7</p>
+</footer>
+
+</body>
+</html>
